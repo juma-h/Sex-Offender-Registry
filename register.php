@@ -30,7 +30,7 @@ if (isset($_POST['firstName'])) {
         $_POST['occupation'],
         $_POST['sexualOffenceCommitted'],
         $_POST['yearIn'],
-       empty($_POST['yearOut']) ?null:
+       empty($_POST['yearOut']) ?(int) date('Y'):
         $_POST['yearOut']
     ));
 

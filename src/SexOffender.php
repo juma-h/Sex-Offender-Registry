@@ -37,6 +37,6 @@ class SexOffender
         $this ->sexualOffenceCommitted = $sexualOffenceCommitted;
         $this->yearIn = $yearIn;
         $this->yearOut = $yearOut;
-       $this->yearsServed =  ($yearOut ??(int) date('Y'))- $yearIn;
+       $this->yearsServed =  ($yearOut ??(int) date('Y')) - $yearIn;
         }
 }
